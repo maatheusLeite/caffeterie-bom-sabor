@@ -1,0 +1,34 @@
+.item-cardapio-product-name,
+.item-cardapio-product-qtd,
+.item-cardapio-product-value {
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.item-cardapio-product-name {
+    width: 800px;
+    height: 24px;
+    color: #000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.item-cardapio-product-qtd {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.item-cardapio-product-value {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #3F9323;
+    font-weight: 500;
+}

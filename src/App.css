@@ -1,0 +1,18 @@
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+    background-color: #C4C4C4;
+    border: 50px;
+}
+    
+*::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: #C55617;
+    -webkit-box-shadow: inset 1px 1px 0 #C55617,inset 0 -1px 0 #C55617; 
+}
+
+*,
+body {
+    margin: 0px;
+    padding: 0px;
+}

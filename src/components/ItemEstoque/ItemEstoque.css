@@ -1,0 +1,116 @@
+.product-name,
+.product-qtd,
+.product-value {
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.product-name {
+    width: 635px;
+    height: 24px;
+    color: #000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.product-qtd {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.product-value {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #E00000;
+    font-weight: 500;
+}
+
+.cq-container {
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    margin: 5px;
+    width: 60px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    padding-left: 5px;
+}
+
+.cq-container2 {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns-container {
+    width: 10px;
+    padding: 2px 2px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-item {
+    width: 14px;
+    height: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.btn-item::selection {
+    background-color: transparent;
+}
+
+.btn-item:hover {
+    cursor: pointer;
+}
+
+.plus {
+    background-color: #36DA7D;
+    border-radius: 0px 5px 0px 0px;
+    border: solid 1px #909090;
+}
+
+.plus:hover {
+    transition: .25s;
+    background-color: #0DFA74;
+}
+
+.minus {
+    background-color: #d96464;
+    border-radius: 0px 0px 5px 0px;
+    border: solid 1px #909090;
+}
+
+.minus:hover {
+    transition: .25s;
+    background-color: #ff1a1a;
+}
+
+.form-container {
+    width: 50px;
+    height: 37px;
+}
+
+.form-container2 {
+    height: 37px;
+    margin-right: 2px;
+    margin-left: -2px;
+}

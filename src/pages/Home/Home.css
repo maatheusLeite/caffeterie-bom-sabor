@@ -1,0 +1,37 @@
+.home-main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/images/background.png);
+    background-size: 105vw 105vh;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.home-content-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.home-first-row,
+.home-second-row {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.home-first-row {
+    justify-content: space-around;
+}
+
+.home-second-row {
+    justify-content: center;
+    margin-top: 60px;
+}

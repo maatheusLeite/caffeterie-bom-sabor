@@ -1,0 +1,38 @@
+.trash-can-btn-container {
+    padding: 0px;
+    margin: 0px;
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trash-can-btn-container:hover,
+.trash-can-btn-container:focus {
+    border: none;
+    outline: 0;
+}
+
+.trash-can-btn {
+    width: 18px;
+    height: 18px;
+    padding: 8px 9px 9px;
+    fill: #7A0909;
+}
+
+.trash-can-btn:hover,
+.trash-can-btn:focus {
+    transition: .20s;
+    fill: #E00000;
+}
+
+.trash-can-btn-container:hover,
+.trash-can-btn-container:focus {
+    cursor: pointer;
+    transition: .25s;
+    outline: solid 1px #7A0909;
+    border: solid 1px #7A0909;
+    background-color: #e6e6e6;
+}

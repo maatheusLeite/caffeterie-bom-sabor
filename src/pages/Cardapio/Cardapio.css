@@ -1,0 +1,167 @@
+.cardapio-page-main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../assets/images/background.png);
+    background-size: 105vw 105vh;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.cardapio-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.cardapio-page-scroll-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+
+.cardapio-add-item-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardapio-add-title-container-2 {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #131212EE;
+    border-radius: 5px;
+    margin: 20px 0px 5px;
+}
+
+.cardapio-add-pdt-title,
+.cardapio-add-value-title {
+    background-color: #ECECEC;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: #565656;
+    font-weight: 500;
+}
+
+.cardapio-add-pdt-title {
+    width: 700px;
+    height: 24px;
+    color: #383838;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cardapio-add-value-title {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #383838;
+    font-weight: 500;
+}
+
+.cardapio-add-pdt-title-top,
+.cardapio-add-value-title-top {
+    background-color: #ECECEC;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: #565656;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.cardapio-add-pdt-title-top:focus,
+.cardapio-add-value-title-top:focus {
+    outline: solid 1px #00B13E;
+    border: solid 1px #00B13E;
+}
+
+.cardapio-add-pdt-title-top {
+    width: 845px;
+    height: 24px;
+    color: #383838;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: -16px;
+}
+
+.cardapio-add-value-title-top {
+    width: 80px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #383838;
+    text-align: center;
+}
+.add-btn {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 12px;
+    background-color: #ECECEC;
+    border: solid 1px #C7C7C7;
+    border-radius: 50px;
+    color: #00B13E;
+    font-size: 1.3em;
+    
+}
+
+.add-btn:hover,
+.add-btn:focus {
+    transition: .25s;
+    background-color: #00B13E;  
+    outline: solid 1px #00B13E;
+    border: solid 1px #00B13E;
+    color: #FFF;
+}
+
+.white {
+    color: #EFEFEF;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.margin-btn-20 {
+    margin-bottom: 20px;
+}
+
+.margin-rgt-810 {
+    margin-right: 770px;
+    margin-left: -60px;
+}
+
+.width-1020 {
+    width: 1020px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

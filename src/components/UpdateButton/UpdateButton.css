@@ -1,0 +1,38 @@
+.upd-btn-container {
+    padding: 0px;
+    margin: 0px;
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upd-btn-container:hover,
+.upd-btn-container:focus {
+    border: none;
+    outline: 0;
+}
+
+.upd-btn {
+    width: 25px;
+    height: 25px;
+    padding: 5px 1px 5px 2px;
+    fill: #000;
+}
+
+.upd-btn:hover,
+.upd-btn:focus {
+    transition: .20s;
+    fill: #00B83D;
+}
+
+.upd-btn-container:hover,
+.upd-btn-container:focus {
+    cursor: pointer;
+    transition: .25s;
+    outline: solid 1px #008D2F;
+    border: solid 1px #008D2F;
+    background-color: #e6e6e6;
+}

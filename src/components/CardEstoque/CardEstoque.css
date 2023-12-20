@@ -1,0 +1,63 @@
+.card-estoque-main-container {
+    min-width: 1200px;
+    height: 350px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px #000;
+}
+
+.card-estoque-title-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.estoque-scroll-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.estoque-item-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estoque-item-title-container {
+    width: 1000px;
+    align-items: center;
+    color: #000;
+}
+
+.estoque-pdt-title {
+    margin-right: 650px;
+    margin-left: 15px;
+}
+
+.estoque-qtd-title {
+    margin-right: 20px;
+}
+
+.estoque-qtd-title2 {
+    margin-right: 35px;
+}
+
+.card-estoque-btn {
+    margin-top: 5px;
+    margin-left: 20px;
+}

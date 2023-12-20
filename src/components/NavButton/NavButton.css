@@ -1,0 +1,21 @@
+.nav-button {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C55617;
+    font-size: .9em;
+    border: none;
+    border-radius: 50px;
+    color: #EFEFEF;
+    box-shadow: 3px 3px 10px #777;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+    transition: .25s;
+    outline: 0;
+    background-color: #8B3604;
+    color: #FFF;
+}

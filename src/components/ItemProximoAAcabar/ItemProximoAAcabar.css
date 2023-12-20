@@ -1,0 +1,26 @@
+.paa-product-name,
+.paa-product-qtd,
+.paa-product-value {
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.paa-product-name {
+    width: 340px;
+    height: 24px;
+    color: #000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.paa-product-qtd {
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E00000;
+    font-weight: 500;
+}

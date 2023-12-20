@@ -1,0 +1,66 @@
+.card-paa-main-container {
+    width: 440px;
+    height: 390px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px #000;
+    padding: 10px 0px;
+}
+
+.card-paa-title-container {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paa-scroll-container {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    margin-bottom: 20px;
+}
+
+.paa-item-container {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paa-item-title-container {
+    width: 400px;
+    padding: 0px 10px 5px; 
+    align-items: center;
+    color: #000;
+}
+
+.paa-item-btn-container {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    margin: 10px 10px 0px;
+}
+
+.paa-pdt-title {
+    margin-right: 290px;
+}
+
+.card-title {
+    color: #000;
+    font-size: 1.7em;
+    margin: 0px;
+}

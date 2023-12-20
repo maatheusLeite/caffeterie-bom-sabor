@@ -1,0 +1,34 @@
+.cstk-product-name,
+.cstk-product-qtd,
+.cstk-product-value {
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cstk-product-name {
+    width: 680px;
+    height: 24px;
+    color: #000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cstk-product-qtd {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.cstk-product-value {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #E00000;
+    font-weight: 500;
+}

@@ -1,0 +1,26 @@
+.cardapio-product-name,
+.cardapio-product-qtd,
+.cardapio-product-value {
+    background-color: #DFDFDF;
+    border: solid 1px #C7C7C7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cardapio-product-name {
+    width: 300px;
+    height: 24px;
+    color: #000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cardapio-product-value {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #3F9323;
+    font-weight: 500;
+}
